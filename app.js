@@ -7,7 +7,6 @@ dotenv.config();
 
 
 const app = express();
-
 const router = require('./routes/todos');
 const Todo = require('./models/todo');
 
